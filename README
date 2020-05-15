@@ -1,0 +1,7 @@
+
+1. edit submit_head.py to specify observation window
+
+2. edit target.list to specify set of targets
+
+3. submit_NRES.csh target.list
+
