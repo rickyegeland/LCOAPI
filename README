@@ -5,3 +5,8 @@
 
 3. submit_NRES.csh target.list
 
+Procedure Notes:
+
+ * Used Travis exposure times (T) in exposure_best.txt and exposure_flat.txt
+ * If T > 20 min (1200 s), divide the observation into chunks of < 20 min
+ * If T < 10 min, observe 2 times at full exposure time
