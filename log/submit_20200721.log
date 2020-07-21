@@ -1,0 +1,12 @@
+View the observing request: https://observe.lco.global/requestgroups/1024177/
+View the observing request: https://observe.lco.global/requestgroups/1024178/
+Request failed: b'{"requests":[{"non_field_errors":["According to the constraints of the request, the target is never visible within the time window. Check that the target is in the nighttime sky. Consider modifying the time window or loosening the airmass or lunar separation constraints. If the target is non sidereal, double check that the provided elements are correct."]}]}'
+Traceback (most recent call last):
+  File "tmp.py", line 26, in <module>
+    raise exc
+  File "tmp.py", line 23, in <module>
+    response.raise_for_status()
+  File "/opt/local/Library/Frameworks/Python.framework/Versions/3.8/lib/python3.8/site-packages/requests/models.py", line 941, in raise_for_status
+    raise HTTPError(http_error_msg, response=self)
+requests.exceptions.HTTPError: 400 Client Error: Bad Request for url: https://observe.lco.global/api/requestgroups/
+View the observing request: https://observe.lco.global/requestgroups/1024179/
